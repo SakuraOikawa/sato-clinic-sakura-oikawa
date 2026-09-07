@@ -3,3 +3,4 @@
 .hours-table thead th{background:#EAF4F8}
 .hours-table{border-left:1px solid #999;border-right:1px solid #999}
 .hours-table th:not(:last-child),.hours-table td:not(:last-child){border-right:1px solid #999}
+.hero-copy{border-radius:8px}
