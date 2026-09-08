@@ -148,6 +148,8 @@
       gallery.addEventListener('scroll', updatePhotoDots, {passive: true});
       updatePhotoDots();
     }
+    const medicalNavLink = document.querySelector('.global-nav a:nth-child(3)');
+    if (medicalNavLink) medicalNavLink.href = './medical.html';
     document.querySelectorAll('.news-list>a:not(.button)').forEach((link, index) => {
       link.href = `./news.html#news-${index + 1}`;
     });

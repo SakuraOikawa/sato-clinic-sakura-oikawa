@@ -30,6 +30,8 @@
 .news-page-list{max-width:900px;margin:0 auto}.news-page-list a{display:block;padding:24px 0;border-bottom:1px solid #c6c6c6;font-size:17px;font-weight:600}
 .news-page-list article{padding:0 0 34px;margin:0 0 34px;border-bottom:1px solid #c6c6c6}.news-page-list article:last-child{margin-bottom:0}.news-page-list h2{margin:0 0 16px;color:var(--blue);font-size:20px;font-weight:600}.news-page-list p{margin:0;font-size:15px;line-height:2}
 @media (max-width:768px){.news-page-list a{padding:18px 0;font-size:15px}}
+.medical-page-list{max-width:900px;margin:0 auto}.medical-page-list article{padding:0 0 34px;margin:0 0 34px;border-bottom:1px solid #c6c6c6}.medical-page-list article:last-child{margin-bottom:0}.medical-page-list h2{margin:0 0 16px;padding:8px 18px;border:3px solid #8ac0d3;background:#fff;text-align:center;color:var(--blue);font-size:20px;font-weight:500}.medical-page-list p{margin:0;font-size:15px;line-height:2}
+@media (max-width:768px){.medical-page-list h2{font-size:18px;padding:7px 12px}.medical-page-list p{font-size:14px}}
 .section{padding:96px 0}
 .subjects{padding:96px 0}
 @media (max-width:768px){.section{padding:56px 0}.subjects{padding:56px 0}}
