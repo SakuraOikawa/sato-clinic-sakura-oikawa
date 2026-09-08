@@ -49,6 +49,12 @@
       <img src="./assets/Infomation_Image/information_1.jpg" alt="診察風景">
     </section>
 
+    <div class="photo-dots" aria-label="院内写真ページ">
+      <button type="button" class="photo-dot active" aria-label="1枚目"></button>
+      <button type="button" class="photo-dot" aria-label="2枚目"></button>
+      <button type="button" class="photo-dot" aria-label="3枚目"></button>
+    </div>
+
     <section class="section section-gray" id="news">
       <div class="container">
         <h2 class="section-title">お知らせ</h2>
@@ -129,6 +135,19 @@
 
   <footer class="site-footer">© 佐藤医院</footer>
   <script>
+    const gallery = document.querySelector('.photo-strip');
+    const photoDots = document.querySelectorAll('.photo-dot');
+    if (gallery && photoDots.length) {
+      const updatePhotoDots = () => {
+        const index = Math.round(gallery.scrollLeft / gallery.clientWidth);
+        photoDots.forEach((dot, dotIndex) => dot.classList.toggle('active', dotIndex === index));
+      };
+      photoDots.forEach((dot, index) => dot.addEventListener('click', () => {
+        gallery.scrollTo({left: index * gallery.clientWidth, behavior: 'smooth'});
+      }));
+      gallery.addEventListener('scroll', updatePhotoDots, {passive: true});
+      updatePhotoDots();
+    }
     const sections = document.querySelectorAll('main > section');
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
