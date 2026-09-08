@@ -17,3 +17,6 @@
 .news-layout{align-items:stretch}
 .news-list{display:flex;flex-direction:column;padding-top:0}
 .news-list>.align-right{margin-top:auto}
+.news-list{margin-top:0;margin-bottom:0}
+.news-list>a:first-child{margin-top:0;padding-top:0}
+.news-list>.align-right{margin-bottom:0;padding-bottom:0}
