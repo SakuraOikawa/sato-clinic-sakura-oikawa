@@ -148,6 +148,9 @@
       gallery.addEventListener('scroll', updatePhotoDots, {passive: true});
       updatePhotoDots();
     }
+    document.querySelectorAll('.news-list>a:not(.button)').forEach((link, index) => {
+      link.href = `./news.html#news-${index + 1}`;
+    });
     const sections = document.querySelectorAll('main > section');
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
