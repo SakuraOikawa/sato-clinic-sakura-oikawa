@@ -10,3 +10,4 @@
 .greeting-text .signature{margin:auto 0 0}
 .greeting-text>p:not(.signature){margin-bottom:24px}
 .medical-row h3{border:3px solid #8ac0d3}
+.greeting-text>p:first-child{margin-top:-4px}
