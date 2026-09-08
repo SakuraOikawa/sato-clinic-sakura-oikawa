@@ -20,3 +20,7 @@
 .news-list{margin-top:0;margin-bottom:0}
 .news-list>a:first-child{margin-top:0;padding-top:0}
 .news-list>.align-right{margin-bottom:0;padding-bottom:0}
+.about-layout{align-items:stretch}
+.about-layout>div{display:flex;flex-direction:column}
+.about-layout>div>p:first-child{margin-top:0}
+.about-layout .align-right{margin-top:auto;margin-bottom:0}
