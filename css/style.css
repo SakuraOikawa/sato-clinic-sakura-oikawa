@@ -218,7 +218,7 @@
 .access-text p{
   width:100%;
   max-width:360px;
-  text-align:left;
+  text-align:center;
 }
 @media (max-width:768px){
   .access-layout>img{
