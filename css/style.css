@@ -235,3 +235,9 @@
   .access-text h3,
   .access-text p{max-width:none}
 }
+
+/* Photo gallery pagination is for the mobile carousel only. */
+.photo-dots{display:none}
+@media (max-width:768px){
+  .photo-dots{display:flex}
+}
