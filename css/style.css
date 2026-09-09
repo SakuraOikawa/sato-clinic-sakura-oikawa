@@ -134,3 +134,9 @@
 @media (max-width:768px){
   .about-layout .align-right{margin-top:40px}
 }
+
+/* Keep the left edge visible for the first two medical images. */
+.medical-list .medical-row:first-child img,
+.medical-list .medical-row:nth-child(2) img{
+  object-position:left center;
+}
