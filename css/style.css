@@ -113,3 +113,9 @@
 @media (max-width:768px){
   .medical-list + .align-right .button{margin-top:40px}
 }
+
+/* Keep all TOP-page CTA buttons at the medical CTA's size. */
+.button{
+  padding:10px 30px;
+  font-size:15px;
+}
