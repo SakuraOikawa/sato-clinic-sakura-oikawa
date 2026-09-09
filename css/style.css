@@ -257,3 +257,7 @@
   }
   .global-nav a{padding:6px 0;white-space:nowrap}
 }
+
+@media (max-width:768px){
+  .hero-copy{top:32%}
+}
