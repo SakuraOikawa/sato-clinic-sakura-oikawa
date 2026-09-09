@@ -72,3 +72,26 @@
 
 /* Preserve the existing header navigation color. */
 .global-nav{color:#111}
+
+/* Section headings: centered type with a short accent line. */
+.section-title{
+  position:relative;
+  border:0;
+  background:transparent;
+  padding:0 0 18px;
+  color:var(--blue);
+}
+.section-title::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:0;
+  width:64px;
+  height:3px;
+  transform:translateX(-50%);
+  background:var(--blue);
+}
+@media (max-width:768px){
+  .section-title{padding-bottom:14px}
+  .section-title::after{width:52px;height:3px}
+}
