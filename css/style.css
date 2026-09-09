@@ -141,3 +141,6 @@
 .medical-list .medical-row:nth-child(3) img{
   object-position:left center;
 }
+.medical-list .medical-row:nth-child(4) img{
+  object-position:right center;
+}
