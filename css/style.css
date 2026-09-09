@@ -119,3 +119,9 @@
   padding:10px 30px;
   font-size:15px;
 }
+
+/* Lower only the greeting body while keeping the signature anchored at bottom. */
+.greeting-text>p:first-child{margin-top:28px}
+@media (max-width:768px){
+  .greeting-text>p:first-child{margin-top:20px}
+}
