@@ -127,10 +127,10 @@
 }
 
 /* Balance the about text and its CTA as one content block. */
-.about-layout>div>p:first-child{margin-top:28px}
+.about-layout>div{justify-content:center}
+.about-layout>div>p:first-child{margin-top:0}
 .about-layout .align-right{margin-top:28px}
 .about-layout .button{margin-top:0}
 @media (max-width:768px){
-  .about-layout>div>p:first-child{margin-top:20px}
   .about-layout .align-right{margin-top:24px}
 }
