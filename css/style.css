@@ -159,3 +159,33 @@
   grid-template-columns:530px 450px;
   justify-content:center;
 }
+
+/* Access: map first, then the two information blocks below it. */
+.access-layout{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:56px;
+}
+.access-layout>img{
+  flex:none;
+}
+.access-text{
+  width:100%;
+  max-width:1040px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  column-gap:70px;
+  align-items:start;
+}
+.access-text h3:nth-of-type(1){grid-column:1;grid-row:1}
+.access-text p:nth-of-type(1){grid-column:1;grid-row:2}
+.access-text h3:nth-of-type(2){grid-column:2;grid-row:1}
+.access-text p:nth-of-type(2){grid-column:2;grid-row:2}
+@media (max-width:768px){
+  .access-layout{gap:28px}
+  .access-text{
+    display:block;
+    max-width:none;
+  }
+}
