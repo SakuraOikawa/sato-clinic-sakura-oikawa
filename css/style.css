@@ -144,3 +144,12 @@
 .medical-list .medical-row:nth-child(4) img{
   object-position:right center;
 }
+
+/* Keep the requested edge visible for the staff portraits. */
+.staff-list .staff-row:nth-child(1) img,
+.staff-list .staff-row:nth-child(2) img{
+  object-position:right center;
+}
+.staff-list .staff-row:nth-child(4) img{
+  object-position:left center;
+}
