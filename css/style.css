@@ -172,10 +172,10 @@
 }
 .access-text{
   width:100%;
-  max-width:1040px;
+  max-width:530px;
   display:grid;
   grid-template-columns:1fr 1fr;
-  column-gap:70px;
+  column-gap:40px;
   align-items:start;
 }
 .access-text h3:nth-of-type(1){grid-column:1;grid-row:1}
