@@ -203,6 +203,7 @@
   column-gap:120px;
   position:relative;
   padding:0 32px;
+  justify-items:center;
 }
 .access-text::before{
   content:"";
@@ -210,8 +211,14 @@
   top:0;
   bottom:0;
   left:50%;
-  width:1px;
+  width:5px;
   background:var(--blue);
+}
+.access-text h3,
+.access-text p{
+  width:100%;
+  max-width:360px;
+  text-align:left;
 }
 @media (max-width:768px){
   .access-layout>img{
@@ -222,6 +229,9 @@
   .access-text{
     max-width:none;
     padding:0;
+    justify-items:stretch;
   }
   .access-text::before{display:none}
+  .access-text h3,
+  .access-text p{max-width:none}
 }
