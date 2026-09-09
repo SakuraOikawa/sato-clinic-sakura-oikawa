@@ -95,3 +95,21 @@
   .section-title{padding-bottom:14px}
   .section-title::after{width:52px;height:3px}
 }
+
+/* Medical item headings and their detail link. */
+.medical-row h3{
+  margin:0 0 24px;
+  padding:4px 0 4px 14px;
+  border:0;
+  border-left:5px solid var(--blue);
+  background:transparent;
+  text-align:left;
+}
+.medical-list + .align-right .button{
+  margin-top:48px;
+  padding:10px 30px;
+  font-size:15px;
+}
+@media (max-width:768px){
+  .medical-list + .align-right .button{margin-top:40px}
+}
