@@ -259,5 +259,8 @@
 }
 
 @media (max-width:768px){
-  .hero-copy{top:32%}
+  .hero-copy{
+    top:18px;
+    transform:none;
+  }
 }
