@@ -137,6 +137,7 @@
 
 /* Keep the left edge visible for the first two medical images. */
 .medical-list .medical-row:first-child img,
-.medical-list .medical-row:nth-child(2) img{
+.medical-list .medical-row:nth-child(2) img,
+.medical-list .medical-row:nth-child(3) img{
   object-position:left center;
 }
