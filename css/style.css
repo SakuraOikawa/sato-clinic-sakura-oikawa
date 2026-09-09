@@ -258,6 +258,18 @@
   .global-nav a{padding:6px 0;white-space:nowrap}
 }
 
+/* Match medical detail headings to the TOP page treatment. */
+.medical-page-list h2{
+  padding:4px 0 4px 14px;
+  border:0;
+  border-left:5px solid var(--blue);
+  background:transparent;
+  text-align:left;
+}
+@media (max-width:768px){
+  .medical-page-list h2{padding:4px 0 4px 14px}
+}
+
 @media (max-width:768px){
   .hero-copy{
     top:8px;
