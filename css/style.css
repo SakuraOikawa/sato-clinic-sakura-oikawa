@@ -40,7 +40,7 @@
 .hero-copy{
   left:clamp(28px, 6vw, 96px);
   right:auto;
-  top:17%;
+  top:24%;
   max-width:calc(100% - 48px);
   transform:translateY(-50%);
   padding:12px 72px 12px 30px;
@@ -57,7 +57,7 @@
   .hero-copy{
     left:20px;
     right:16px;
-    top:36%;
+    top:42%;
     max-width:none;
     padding:4px 28px 4px 16px;
     border-left-width:4px;
