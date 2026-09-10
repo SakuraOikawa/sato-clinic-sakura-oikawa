@@ -304,6 +304,8 @@
 .site-header{background:#fff9ee}.hero-panel-copy{font-family:'M PLUS 1p','Noto Sans JP',sans-serif;font-size:48px;font-weight:800;line-height:1.18}
 @media (max-width:768px){.hero-panel-copy{font-size:38px;line-height:1.2}}
 @media (max-width:480px){.hero-panel-copy{font-size:34px}}
+@media (min-width:769px){.hero{height:800px}.hero-panel{padding-top:44px;padding-bottom:38px}.hero-panel-copy{margin-bottom:30px}.hero-links{gap:12px}.hero-hours{padding-top:20px;padding-bottom:14px}.hero-hours .hours-note{margin-top:13px}}
+@media (min-width:769px){.hero-panel-copy{margin-bottom:58px}}
 .hero-panel-copy{width:760px;font-size:clamp(76px,5vw,84px)}
 @media (max-width:768px){.hero-panel-copy{width:auto;font-size:38px}}
 @media (max-width:480px){.hero-panel-copy{font-size:34px}}
