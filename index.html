@@ -168,7 +168,37 @@
       }, { threshold: 0.1 });
       sections.forEach((section) => observer.observe(section));
     }
+    const hero = document.querySelector('.hero');
+    if (hero) {
+      hero.innerHTML = `<div class="hero-panel"><a class="hero-panel-logo" href="#top"><img src="./assets/Logo/logo.png" alt="佐藤医院"></a><div class="hero-panel-copy">地域に根ざした<br>医療</div><nav class="hero-links" aria-label="主要メニュー"><a href="./news.html"><span>▤</span>お知らせ</a><a href="./medical.html"><span>＋</span>診療内容</a><a href="./about.html"><span>⌂</span>当院について</a><a href="#staff"><span>♧</span>スタッフ紹介</a><a href="#access"><span>⌖</span>アクセス</a><a href="./faq.html"><span>?</span>よくあるご質問</a></nav><div class="hero-hours"><h2>診療時間</h2><p>午前　9:00〜12:00</p><p>午後　13:00〜18:00</p><small>月・火・水・金・土：診療　／　木・日：休診</small></div></div><div class="hero-photo"><img src="./assets/Hospital_Exterior/hospital_1.jpg" alt="佐藤医院 外観"></div>`;
+    }
   </script>
 <script>const aboutButton = document.querySelector('#about .button'); if (aboutButton) aboutButton.href = './about.html';</script>
+<script>
+  const heroPhoto = document.querySelector('.hero-photo img');
+  if (heroPhoto) {
+    heroPhoto.src = './assets/Doctor_Image/firstView.jpg';
+    heroPhoto.alt = '佐藤医院 診療風景';
+  }
+  const heroHours = document.querySelector('.hero-hours');
+  const hoursTable = document.querySelector('.hours-section .hours-table');
+  const hoursNote = document.querySelector('.hours-section .hours-note');
+  if (heroHours && hoursTable && hoursNote) {
+    heroHours.replaceChildren(Object.assign(document.createElement('h2'), {textContent: '診療時間'}), hoursTable.cloneNode(true), hoursNote.cloneNode(true));
+  }
+</script>
+<script>document.querySelector('.hero')?.classList.add('hero-ready');</script>
+<script>
+  const heroPhotoArea = document.querySelector('.hero-photo');
+  if (heroPhotoArea) {
+    const wave = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    wave.classList.add('hero-wave');
+    wave.setAttribute('viewBox', '0 0 1000 180');
+    wave.setAttribute('preserveAspectRatio', 'none');
+    wave.setAttribute('aria-hidden', 'true');
+    wave.innerHTML = '<path d="M0 150 C300 148 690 78 1000 0 L1000 180 L0 180 Z" fill="#cdebf3"/>';
+    heroPhotoArea.appendChild(wave);
+  }
+</script>
 </body>
 </html>
