@@ -203,5 +203,14 @@
   }
 </script>
 <script>document.querySelector('.hero-panel-logo')?.remove();</script>
+<script>
+  const detailHours = document.querySelector('.hours-section:not(.bottom-hours)');
+  if (detailHours) detailHours.id = 'hero-hours-detail';
+  const compactHours = document.querySelector('.hero-hours');
+  if (compactHours) {
+    compactHours.innerHTML = '<h2>診療時間</h2><p>午前　9:00〜12:00</p><p>午後　13:00〜18:00</p><p>休診：木曜・土曜午後・日曜</p><a class="hero-hours-link" href="#hero-hours-detail">詳しい診療時間を見る</a>';
+  }
+</script>
+<script>document.querySelector('.hero-hours')?.classList.add('is-compact');</script>
 </body>
 </html>
