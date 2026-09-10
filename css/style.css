@@ -301,6 +301,17 @@
 @media (max-width:768px){.hero-photo:after{bottom:-13%;height:66px;transform:rotate(-1deg)}}
 @media (max-width:480px){.hero-photo:after{height:48px}}
 .hero-panel-logo{display:none}
+.site-header{background:#fff9ee}.hero-panel-copy{font-family:'M PLUS 1p','Noto Sans JP',sans-serif;font-size:48px;font-weight:800;line-height:1.18}
+@media (max-width:768px){.hero-panel-copy{font-size:38px;line-height:1.2}}
+@media (max-width:480px){.hero-panel-copy{font-size:34px}}
+.hero-panel-copy{width:760px;font-size:clamp(76px,5vw,84px)}
+@media (max-width:768px){.hero-panel-copy{width:auto;font-size:38px}}
+@media (max-width:480px){.hero-panel-copy{font-size:34px}}
+.site-header{background:#fff9f0}.header-inner{background:transparent}
+.site-header,.header-inner{background:#fff6e8}.hero-panel-copy{position:relative;z-index:3;width:560px;max-width:none;white-space:nowrap;font-size:56px;line-height:1.16;text-shadow:0 1px 2px rgba(255,255,255,.35)}
+@media (max-width:768px){.hero-panel-copy{width:auto;max-width:100%;white-space:normal;font-size:38px}}
+@media (max-width:480px){.hero-panel-copy{font-size:34px}}
+.site-header{background:#eef7fa}.hero-panel-copy{font-family:'Zen Kaku Gothic New','Noto Sans JP',sans-serif;font-weight:700}
 .hero-panel-copy{margin-top:0}
 @media (max-width:768px){.hero-panel-copy{margin-top:0}}
 .hero-photo:before{left:-188px;top:-3%;width:276px;height:108%;border-radius:0 42% 56% 0 / 0 9% 91% 100%;background:#dceff5}
@@ -311,6 +322,10 @@
 .hero-photo{isolation:isolate}
 @media (max-width:768px){.hero-photo:after{left:0;right:0;bottom:-28px;height:88px;background:#cdebf3;clip-path:polygon(0 28%,20% 25%,40% 20%,60% 14%,80% 7%,100% 0,100% 100%,0 100%)}}
 @media (max-width:480px){.hero-photo:after{bottom:-20px;height:60px}}
+.site-header{background:#fff9f0!important}.header-inner{background:transparent!important}
+.hero-panel-copy{width:900px;max-width:none;font-size:clamp(80px,7vw,100px);line-height:1.08;white-space:nowrap;letter-spacing:.02em}.hero-panel-copy br{display:none}
+@media (max-width:768px){.hero-panel-copy{width:auto;max-width:100%;font-size:38px;line-height:1.2;white-space:normal}.hero-panel-copy br{display:block}}
+@media (max-width:480px){.hero-panel-copy{font-size:34px}}
 .hero-photo:before{left:-182px;width:270px;border-radius:0 38% 52% 0 / 0 8% 92% 100%}
 @media (max-width:768px){.hero-photo:before{display:none}}
 .hero-photo:before{border-radius:0 38% 68% 0 / 0 8% 92% 100%}
@@ -324,3 +339,4 @@
 .hero-photo:after{left:0;right:0;bottom:-62px;height:178px;border-radius:0;background:#cdebf3;opacity:1;transform:none;box-shadow:none;clip-path:polygon(0 38%,10% 37%,20% 35%,30% 32%,40% 28%,50% 23%,60% 18%,70% 13%,80% 8%,90% 4%,100% 0,100% 100%,0 100%)}
 @media (max-width:768px){.hero-photo:after{left:0;right:0;bottom:-28px;height:88px;border-radius:0;background:#cdebf3;opacity:1;transform:none;box-shadow:none;clip-path:polygon(0 30%,20% 27%,40% 22%,60% 16%,80% 8%,100% 0,100% 100%,0 100%)}}
 @media (max-width:480px){.hero-photo:after{bottom:-20px;height:60px}}
+.site-header{background:#fff9f0!important}.header-inner{background:transparent!important}
