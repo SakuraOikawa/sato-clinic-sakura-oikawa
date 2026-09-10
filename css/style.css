@@ -300,6 +300,9 @@
 .site-header{background:#e3f2f7}.hero-panel{background:#dceff5}.hero-photo:before{background:#dceff5;left:-170px;width:255px}.hero-photo:after{bottom:-16%;height:126px;background:rgba(185,226,239,.62);transform:rotate(-1.5deg)}.hero-hours{border-top-color:#a9d2df}.hero-hours .hours-table th,.hero-hours .hours-table td{border-color:#a9d2df}
 @media (max-width:768px){.hero-photo:after{bottom:-13%;height:66px;transform:rotate(-1deg)}}
 @media (max-width:480px){.hero-photo:after{height:48px}}
+.hero-panel-logo{display:none}
+.hero-panel-copy{margin-top:0}
+@media (max-width:768px){.hero-panel-copy{margin-top:0}}
 .hero-photo:before{left:-188px;top:-3%;width:276px;height:108%;border-radius:0 42% 56% 0 / 0 9% 91% 100%;background:#dceff5}
 .hero-photo:after{bottom:-72px;height:182px;border-radius:50% 50% 0 0 / 72% 72% 0 0;background:#cdebf3;transform:rotate(-1.2deg);box-shadow:0 -22px 0 #e4f6fa}
 @media (max-width:768px){.hero-photo:before{display:none}.hero-photo:after{bottom:-34px;height:94px;border-radius:50% 50% 0 0 / 70% 70% 0 0;background:#cdebf3;transform:rotate(-1deg);box-shadow:none}}
